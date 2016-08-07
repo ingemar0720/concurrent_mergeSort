@@ -359,7 +359,7 @@ int main()
     duration = (end.tv_sec * 1000 + end.tv_usec / 1000) -
                (start.tv_sec * 1000 + start.tv_usec / 1000);
 
-#ifdef dumo_data
+#ifdef dump_data
 	// dump sorted element
 	printf("\n Sorted Linked List is: \n");
 	if(max_thread_num == 1){
